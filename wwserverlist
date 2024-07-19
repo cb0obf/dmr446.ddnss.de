@@ -1,0 +1,1 @@
+echo '<td>' . htmlspecialchars($status) . '</td>';
