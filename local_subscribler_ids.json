@@ -5853,6 +5853,6 @@
 {"id":"9974004","callsign":"FR974LA","fname":"Luciano","name":"Luciano","city":"La Reunion","dept":"","land":"208","state":"974","country":"France","remarks":"FRDMR"},
 {"id":"9974005","callsign":"FR974BF","fname":"Bryan","name":"Bryan","city":"La Reunion","dept":"","land":"208","state":"974","country":"France","remarks":"FRDMR"},
 {"id":"9994100","callsign":"FR94DD","fname":"Didier","name":"Didier","city":"Val-de-Marne","dept":"","land":"208","state":"94","country":"France","remarks":"THESHIELD"}
-{"id":"2654179","callsign":"Luigi01","fname":"Mario","name":"Mario","city":"Moeckern","dept":"","land":"262","state":"262","country":"Germany","remarks":"FDMR"}
+{"id":"2654179","callsign":"Luigi01","fname":"Mario, Moeckern","name":"Mario","city":"Moeckern","dept":"","land":"262","state":"262","country":"Germany","remarks":"FDMR"}
 ]
 }
