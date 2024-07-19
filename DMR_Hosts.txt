@@ -3,12 +3,12 @@
 #	Written for Pi-Star Digital Voice Node by Andy Taylor (MW0MWZ)
 #	Origional idea from Adrian Craig (M0GLJ)
 #
-#	Updated 24-10-2023 FreeDMR Digital Network
+#	Updated 19-07-2023 DMR446.ddnss.de
 #
 #	The format of this file is the name of the reflector followed by its
 #	IP address / Hotname / Password. NO SPACES!!
 #
-#	Downloaded from https://raw.githubusercontent.com/FreeDMR-Digital-Network/MW0MWZ-HostFiles/main/DMR_Hosts.txt
+#	Downloaded from https://raw.githubusercontent.com/cb0obf/dmr446.ddnss.de/main/DMR_Hosts.txt
 #
 ######################################################################################################
 #
