@@ -41,7 +41,7 @@ FreeDMR_NRW                     0000    dmr446-nrw.de                           
 FreeDMR_ERSATZ                  0000    217.160.76.184                          passw0rd        62031
 FreeDMR_Ireland			            0000	  omcicomputerservices.com               	passw0rd	      62031
 FreeDMR_Ungarn			            0000	  freedmr.hu					                    passw0rd	      62031
-FreeDMR_France			            0000	  serveur-f62dmr.fr			                  passw0rd	      55555
+FreeDMR_France			            0000	  f62dmr.fr			                  passw0rd	      55555
 
 #	Custom DMR_Hosts.txt
 #
