@@ -34,12 +34,12 @@
 # Country			DMR-ID	IP/Hostname				Password	Port #
 ######################################################################################################
 FreeDMR_Bayern		            	0000	  dmr446.ddnss.de				                  passw0rd	      62031
-FreeDMR_Bayern		            	0000	  dchb.ddns.net/jockel				            passw0rd	      62031
+FreeDMR_Bremen		            	0000	  dchb.ddns.net/jockel				            passw0rd	      62031
 FreeDMR_Sachsen                 0000    freedmr.multhielemedia.de               passw0rd        62031
 FreeDMR_Berlin                  0000    fdmr.dynbox.net                         passw0rd        62031
 FreeDMR_NRW                     0000    dmr446-nrw.de                           passw0rd        62031
 FreeDMR_ERSATZ                  0000    217.160.76.184                          passw0rd        62031
-FreeDMR_Ireland			            0000	  unmsomci.myvnc.com		                	passw0rd	      62031
+FreeDMR_Ireland			            0000	  omcicomputerservices.com               	passw0rd	      62031
 FreeDMR_Ungarn			            0000	  freedmr.hu					                    passw0rd	      62031
 FreeDMR_France			            0000	  serveur-f62dmr.fr			                  passw0rd	      55555
 
