@@ -5,3 +5,4 @@ DE-Bayern, 2628,dmr446.ddnss.de, passw0rd,62031,
 DE-Sachsen, 26280,freedmr.multhielemedia.de, passw0rd, 62031
 Ireland, 2721,omcicomputerservices.com, passw0rd, 62031
 Ungarn, 2161,freedmr.hu, passw0rd, 62031
+ADN_7221_Argentina	7221	7221.adn.systems	passw0rd	62031
