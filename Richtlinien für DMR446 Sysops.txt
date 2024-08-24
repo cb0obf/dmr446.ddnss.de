@@ -1,6 +1,6 @@
 Richtlinien für DMR446 Sysops
 Zuletzt bearbeitet von Andreas am 24.08.2024
-Dieses Dokument enthält Richtlinien und Anforderungen für Peer´s/Brücken-Sysops.
+Dieses Dokument enthält Richtlinien und Anforderungen für Server/Peer´s/Brücken-Sysops.
 
 Philosophie
 
@@ -26,7 +26,7 @@ Seien Sie mindestens per Email erreichbar
 Nehmen Sie sich die Zeit, einen Server zu betreiben, Ihre Benutzer zu unterstützen und DMR446 in Ihrem Land zu fördern.
 Erlernen Sie grundlegende Linux-Administrationskenntnisse, um Ihren Server zu unterstützen. Die Community wird Ihnen helfen, aber wir werden das nicht für Sie tun.
 Ihr Server ist Open Access und ein Full-Feed
-Es ist in Ordnung und sogar sinnvoll, einen Co-Sysop oder ein oder zwei andere Personen zu haben, die Zugriff auf Ihren Server haben und Ihnen helfen, wenn Sie beschäftigt sind (wir alle haben ein Leben außerhalb des Radios!). Sie müssen jedoch ein angemessenes Maß an Kontrolle und Beteiligung an Ihrem Server behalten. Wie bei allem, was beim Hobby passiert, geht es darum, zu lernen und voranzukommen. Daher ist die Bereitschaft zum Lernen und Anpassen für alle angehenden Sysops wichtig.
+Es ist in Ordnung und sogar sinnvoll, einen Co-Sysop oder ein oder zwei andere Personen zu haben, die Zugriff auf Ihren Server haben und Ihnen helfen, wenn Sie beschäftigt sind (wir alle haben ein Leben außerhalb des Hobbys!). Sie müssen jedoch ein angemessenes Maß an Kontrolle und Beteiligung an Ihrem Server behalten. Wie bei allem, was beim Hobby passiert, geht es darum, zu lernen und voranzukommen. Daher ist die Bereitschaft zum Lernen und Anpassen für alle angehenden Sysops wichtig.
 
 Auflistung und Änderungen
 
