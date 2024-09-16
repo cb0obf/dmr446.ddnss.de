@@ -1,0 +1,93 @@
+Richtlinien für DMR446 Sysops
+Zuletzt bearbeitet von Andreas am 24.08.2024
+Dieses Dokument enthält Richtlinien und Anforderungen für Server/Peer´s/Brücken-Sysops.
+
+Philosophie
+
+DMR446 ist ein Peer-Netzwerk. Alle Server sind gleich, ebenso wie die Personen, die sie betreiben. Niemand kontrolliert das Netzwerk, obwohl das Deutsche Team als Gründer des Netzwerks für einige der Verwaltungsfunktionen verantwortlich ist, insbesondere für die Auflistung der Server.
+
+Wir glauben an Open-Source-Software. Alle Teile von DMR446 sind und bleiben frei wie Redefreiheit und frei wie Bier.
+
+Um dem Netzwerk beizutreten, müssen Sie lediglich einen Server erstellen und sich mit einem oder mehreren Peers verbinden. Wählen Sie Ihre Peers sorgfältig aus. Diese Personen sind Ihre „Sponsoren“ für den Beitritt zu DMR446. Wir alle übernehmen die Verantwortung für den Datenverkehr, den wir ins Netzwerk bringen, und das bedeutet, dass Ihre Peers als Ihre Verbindungspunkte ins Netzwerk ebenfalls die Verantwortung teilen. Wenn Ihr Datenverkehr nicht akzeptabel ist oder Probleme verursacht, haben Ihre Peers das Recht, ihre Brücken zu Ihnen zu beenden. Wenn Sie alle Ihre Brücken verlieren, wird Ihr Server aus der Liste entfernt. Mit dieser Methode bauen wir ein „Web of Trust“ der Community auf, in dem jeder Sysop und Server durch das Vertrauen seiner unmittelbaren Peers unterstützt wird. Dies fördert die Verantwortung der Community und das gemeinsame Eigentum.
+
+Serverbrücken
+
+Jeder Server sollte versuchen, zwischen 1 und 5 Brücken zu anderen Servern einzurichten, wobei 3 oder 4 im Allgemeinen ausreichen. Obwohl Belastbarkeit und Mesh-Teilnahme wichtig sind, gilt ab einem bestimmten Niveau das Gesetz der abnehmenden Erträge. Tatsächlich ist das Hinzufügen weiterer Brücken ab einem bestimmten Punkt schädlich für das Netzwerk. Dies liegt daran, dass jede Brücke, jeder Stream und jedes Paket CPU-Zyklen zur Verarbeitung benötigt. Die optimale Anzahl an Brücken ist daher die Anzahl, die das erforderliche Maß an Belastbarkeit bietet, ohne CPU-Zyklen zu verschwenden, was nicht nur verschwenderisch, sondern auch schlecht für die Umwelt ist.
+
+Um die erforderliche geografische Ausbreitung zu gewährleisten, sollten die Brückenstandorte mit Bedacht gewählt werden.
+
+Sysops
+
+Die DMR446-Community erwartet von ihren Sysops:
+
+In dem Land sein, das der Server bedient
+Besitzen Sie ein Rufzeichen in Ihrem Land
+Seien Sie mindestens per Email erreichbar
+Nehmen Sie sich die Zeit, einen Server zu betreiben, Ihre Benutzer zu unterstützen und DMR446 in Ihrem Land zu fördern.
+Erlernen Sie grundlegende Linux-Administrationskenntnisse, um Ihren Server zu unterstützen. Die Community wird Ihnen helfen, aber wir werden das nicht für Sie tun.
+Ihr Server ist Open Access und ein Full-Feed
+Es ist in Ordnung und sogar sinnvoll, einen Co-Sysop oder ein oder zwei andere Personen zu haben, die Zugriff auf Ihren Server haben und Ihnen helfen, wenn Sie beschäftigt sind (wir alle haben ein Leben außerhalb des Hobbys!). Sie müssen jedoch ein angemessenes Maß an Kontrolle und Beteiligung an Ihrem Server behalten. Wie bei allem, was beim Hobby passiert, geht es darum, zu lernen und voranzukommen. Daher ist die Bereitschaft zum Lernen und Anpassen für alle angehenden Sysops wichtig.
+
+Auflistung und Änderungen
+
+Die Serverauflistung auf unserer Website und in Pi-Star und anderer Software wird zentral von DMR446 im Auftrag des Netzwerks verwaltet. Wir werden Server auflisten, wenn die oben genannten Anforderungen erfüllt sind und das entsprechende Formular ausgefüllt und vom zuständigen Sysop an uns gesendet wurde.
+
+Wir werden die Liste in Ihrem Namen aufrechterhalten, sofern Sie weiterhin die oben genannten Anforderungen erfüllen, in der Sysop-Whatsappgruppe präsent sind und Ihr Server verfügbar bleibt. Jeder Server, der länger als 30 Tage ausfällt, wird aus den Listen entfernt. Dasselbe gilt, wenn ein Sysop länger als 30 Tage nicht erreichbar ist.
+
+Gesprächsgruppen
+
+Sie können die Gesprächsgruppen innerhalb des MCC Ihres Landes für beliebige Zwecke verwenden. Wenn es in Ihrem Land mehr als einen Server gibt, sollten Sie sich mit den anderen Sysops absprechen. Wenn Probleme auftreten, werden diese auf Anfrage vom Deutschen Team und/oder der gesamten Sysop-Gruppe vermittelt.
+
+Weltweit werden Nicht-MCC-Talkgroups vom Deutschen Team im Namen der Community verwaltet. Alle Probleme im Zusammenhang mit diesen Talkgroups sollten in der Sysops-Gruppe angesprochen werden.
+
+Offener Zugriff, vollständiger Feed und alles, überall
+
+Damit Ihr Server aufgelistet wird, muss er Open Access sein (jeder kann sich verbinden) und einen vollständigen DMR446-Talkgroup-Feed bereitstellen.
+
+Das Netzwerk verfolgt eine „Alles, überall“-Richtlinie. Das bedeutet, dass alle Gesprächsgruppen weltweit verfügbar sein sollten. Die einzige Ausnahme hiervon ist, wenn der Datenverkehr von einem anderen System oder Netzwerk stammt und Ihre Vereinbarung mit diesem System Sie daran hindert, den Datenverkehr global zu teilen.
+
+Brücken zu anderen Systemen
+
+Hierzu zählen XLX, Peer-Anschlüsse, analoge Brücken etc.
+
+Diese Verbindungen sollten mit Vorsicht hergestellt werden. Fast alle Netzwerkprobleme, die wir in der Vergangenheit festgestellt haben, wurden durch diese Art von Verbindungen verursacht.
+Eine Brücke darf maximal 1 Talkgruppen bedienen.
+
+Der Quellserver für diese Brücken sollte das Protokoll v5 oder höher unterstützen, damit die Quelle des Datenverkehrs nachvollziehbar ist.
+Jede externe Quelle sollte nur mit einem Server und einer Gesprächsgruppe verbunden sein. Wenn ein anderer Sysop diese Quelle überbrückt hat, dürfen Sie keine weitere Brücke hinzufügen.
+Wir betreiben zum Wohle des Netzwerks eine One-Hop-Regel. Jedes externe System darf maximal 1 Hop von DMR446 aus darstellen. Was beispielsweise nie passieren sollte, ist, dass ein System an eine Kette anderer Systeme auf dem Backend angeschlossen wird, da das Potenzial zur Entstehung einer Out-of-Network-Schleife dadurch erheblich zunimmt.
+
+Time-out
+
+Das systemweite Timeout beträgt 180 Sekunden (3 Minuten). Alle Übertragungen sollten unter dieser Länge liegen, sonst werden sie verworfen.
+
+Genaue Zeitquelle
+
+Server benötigen eine genaue Zeitquelle, um richtig zu funktionieren. Dies kann NTP oder eine andere Methode zur Synchronisierung der Zeit sein. Die Zeit sollte auf maximal 1 Sekunde genau sein, da sonst der Datenverkehr unterbrochen werden kann.
+
+Sicherheit
+
+Es ist Aufgabe der Sysops, einen Server zu warten, der über ein angemessenes Sicherheitsniveau verfügt, um das Netzwerk zu schützen. Dazu gehört:
+
+Sicherer Zugriff
+das System auf dem neuesten Stand halten (Patches)
+Geben Sie das Root-Passwort nicht an Dritte außerhalb Ihrer Gruppe von Core-Sysops weiter.
+Wenn die Sicherheit zum Problem wird, entfernen Ihre Bridge-Partner möglicherweise ihre Bridges zu Ihnen und Ihr Server wird möglicherweise aus der Liste entfernt.
+
+Akzeptables Verhalten
+
+Die Community erwartet von ihren Sysops, dass sie sich anderen Sysops und Benutzern gegenüber höflich und zuvorkommend verhalten. Probleme werfen ein schlechtes Licht auf uns alle. Wir erwarten von Sysops außerdem, dass sie sich so verhalten, dass sie FreeDMR und seine Sysops und Benutzer jederzeit fördern und unterstützen. Ist dies nicht der Fall, kann die Sysops-Gruppe beschließen, die Zusammenarbeit mit einem einzelnen Sysop und dessen Server(n) einzustellen.
+
+Server-ID-Nummerierung
+
+Jeder Sysop erhält bei der Registrierung im Netzwerk eine SERVER_ID, die aus seinem MCC und einer einzelnen Ziffer besteht (z. B. 2341, 2081 usw.).
+
+Wenn der Sysop weitere Server erstellt, kann er eine weitere Ziffer erhalten, sodass die anderen Server eine eindeutige ID behalten (z. B. 23410, 23411, 23412 usw.).
+
+Alle Server-IDs, die nicht aus vier oder fünf Ziffern bestehen, werden vom Netzwerk gelöscht.
+
+Für experimentelle, zugangsbeschränkte oder partielle Feed-Server kann als Server-ID die eigene DMR-ID eines Benutzers oder Vereins verwendet werden.
+
+D-APRS
+
+D-APRS-Verkehr sollte nur als privater Anruf über (ID900999) abgewickelt werden. Dieser Verkehr darf nicht an das globale Netzwerk weitergeleitet werden und muss lokal auf Ihrem Server bleiben.
