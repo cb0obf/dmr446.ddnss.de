@@ -3,7 +3,7 @@
 #	Written for Pi-Star Digital Voice Node by Andy Taylor (MW0MWZ)
 #	Origional idea from Adrian Craig (M0GLJ)
 #
-#	Updated 19-07-2024 DMR446.ddnss.de
+#	Updated 27-09-2024 DMR446.ddnss.de
 #
 #	The format of this file is the name of the reflector followed by its
 #	IP address / Hotname / Password. NO SPACES!!
@@ -17,53 +17,41 @@
 ######################################################################################################
 # Name				DMR-ID	IP/Hostname				Password	Port #
 ######################################################################################################
-
-######################################################################################################
 #
-#				BrandMeister Hosts Below
-#
-######################################################################################################
-# Country			DMR-ID	IP/Hostname				Password	Port #
-######################################################################################################
-
 ######################################################################################################
 #
 # FreeDMR Network Germany, France, Ireland, HUngary - UK  DE/F/IE/UK/HU Hosts Below for licenced free
-#
+#                            Normal Login 
 ######################################################################################################
 # Country			DMR-ID	IP/Hostname				Password	Port #
 ######################################################################################################
-BM_FreeDMR-Bayern		            	0000	  dmr446.ddnss.de				                  passw0rd	      62031
-BM_FreeDMR-Bremen		            	0000	  dchb.ddns.net/jockel				            passw0rd	      62031
-BM_FreeDMR-Sachsen                 0000    freedmr.multhielemedia.de               passw0rd        62031
-BM_FreeDMR-Berlin                  0000    fdmr.dynbox.net                         passw0rd        62031
-BM_FreeDMR-NRW                     0000    dmr446-nrw.de                           passw0rd        62031
-BM_FreeDMR-OWL                     0000    freedmr-owl.ddns.net                    passw0rd        62031
-BM_FreeDMR-Ireland			            0000	  omcicomputerservices.com               	passw0rd	      62031
-BM_FreeDMR-Ungarn			            0000	  freedmr.hu					                    passw0rd	      62031
-BM_FreeDMR-France			            0000	  f62dmr.fr			                  passw0rd	      55555
+DMR+_FreeDMR-Bayern		            	0000	  dmr446.ddnss.de				                  passw0rd	      62031
+DMR+_FreeDMR-Bremen		            	0000	  dchb.ddns.net/jockel				            passw0rd	      62031
+DMR+_FreeDMR-Sachsen                0000    freedmr.funkerportal.de                 passw0rd        62031
+DMR+_FreeDMR-Berlin                 0000    fdmr.dynbox.net                         passw0rd        62031
+DMR+_FreeDMR-NRW                    0000    dmr446-nrw.de                           passw0rd        62031
+DMR+_FreeDMR-OWL                    0000    freedmr-owl.ddns.net                    passw0rd        62031
+DMR+_FreeDMR-Ireland			          0000	  omcicomputerservices.com               	passw0rd	      62031
+DMR+_FreeDMR-Ungarn			            0000	  freedmr.hu					                    passw0rd	      62031
+DMR+_FreeDMR-France			            0000	  f62dmr.fr			                          passw0rd	      55555
 
 
-
+######################################################################################################
 #	Custom DMR_Hosts.txt
-#
 #	Written for Pi-Star Digital Voice Node by Andy Taylor (MW0MWZ)
-#
 #	The format of this file is the name of the reflector followed by its
 #	IP address / Hotname / Password. TAB delimited only NO SPACES!!
-#
 #	Please ensure BrandMeister Masters are prefixed with BM_
 #	Please ensure Phoenix / DMR+ Masters are prefixed with DMR+_
-#
 #	Passwords / Ports ARE important too!
-#
 ##############################################################################################
 #
 #				Custom DMR Hosts
-#
+#   Server mit Sicherem Login 
 ##############################################################################################
 # Name				DMR-ID	IP/Hostname			Password	Port #
 ##############################################################################################
 #BM_Custom_01			1234	1.2.3.4				passw0rd	62031
-#DMR+_Custom_01			1234	1.2.3.4				PASSWORD	55555
+DMR+freedmr.funkerportal.de			2629	freedmr.funkerportal.de				Dein Passwort	62031
+DMR+dmr446.ddnss.de             2628  dmr446.ddnss.de               Dein Passwort 62031
 ##############################################################################################
