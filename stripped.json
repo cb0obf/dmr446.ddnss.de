@@ -51095,7 +51095,7 @@
  {
    "RADIO_ID": 2653150,
    "CALLSIGN": "DW1PBJ",
-   "FIRST_NAME": "Jens Home",
+   "FIRST_NAME": "Jens-LKW",
    "LAST_NAME": "33161 Hoevelhof",
    "CITY": "Nordrhein-Westfalen",
    "STATE": "Germany",
@@ -51104,7 +51104,7 @@
  {
    "RADIO_ID": 2653151,
    "CALLSIGN": "DW1PBJ",
-   "FIRST_NAME": "Jens LKW",
+   "FIRST_NAME": "Jens-Home",
    "LAST_NAME": "33161 Hoevelhof",
    "CITY": "Nordrhein-Westfalen",
    "STATE": "Germany",
@@ -51113,7 +51113,7 @@
  {
    "RADIO_ID": 2653152,
    "CALLSIGN": "DW1PBJ",
-   "FIRST_NAME": "Jens Mobil",
+   "FIRST_NAME": "Jens-Mobil",
    "LAST_NAME": "33161 Hoevelhof",
    "CITY": "Nordrhein-Westfalen",
    "STATE": "Germany",
@@ -51121,8 +51121,8 @@
  },
  {
    "RADIO_ID": 2653153,
-   "CALLSIGN": "DW1PBJ-5",
-   "FIRST_NAME": "Jens PKW",
+   "CALLSIGN": "DW1PBJ",
+   "FIRST_NAME": "Jens-PKW",
    "LAST_NAME": "33161 Hoevelhof",
    "CITY": "Nordrhein-Westfalen",
    "STATE": "Germany",
