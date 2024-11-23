@@ -25,12 +25,12 @@
 ######################################################################################################
 # Country			DMR-ID	IP/Hostname				Password	Port #
 ######################################################################################################
-DMR+_FreeDMR-Bayern		            	0000	  dmr446.ddnss.de				                  passw0rd	      62031
+DMR+_FreeDMR-Bayern		            	0000	  dmr446.ddnss.de				                  Dein Passwort   62031
 DMR+_FreeDMR-Bremen		            	0000	  dchb.ddns.net/jockel				            passw0rd	      62031
-DMR+_FreeDMR-Sachsen                0000    freedmr.funkerportal.de                 passw0rd        62031
+DMR+_FreeDMR-Sachsen                0000    freedmr.funkerportal.de                 Dein Passwort   62031
 DMR+_FreeDMR-Berlin                 0000    fdmr.dynbox.net                         passw0rd        62031
-DMR+_FreeDMR-NRW                    0000    dmr446-nrw.de                           passw0rd        62031
-DMR+_FreeDMR-OWL                    0000    freedmr-owl.ddns.net                    passw0rd        62031
+DMR+_FreeDMR-NRW                    0000    dmr446-nrw.de                           Dein Passwort   62031
+DMR+_FreeDMR-OWL                    0000    freedmr-owl.ddns.net                    Dein Passwort   62031
 DMR+_FreeDMR-Ireland			          0000	  omcicomputerservices.com               	passw0rd	      62031
 DMR+_FreeDMR-Ungarn			            0000	  freedmr.hu					                    passw0rd	      62031
 DMR+_FreeDMR-France			            0000	  f62dmr.fr			                          passw0rd	      55555
