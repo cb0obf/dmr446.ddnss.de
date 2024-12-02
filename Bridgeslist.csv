@@ -1,5 +1,5 @@
-TG#,Name,Land
-"900999#","D-Aprs","Internet"
-"9","DVS","Internet"
+Name,Land,TG#
+"D-Aprs",,"Internet""900999#"
+"DVS","Internet","9"
 "1#","2","3"
 
