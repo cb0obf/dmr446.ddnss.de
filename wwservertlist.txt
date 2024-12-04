@@ -1,4 +1,4 @@
-DE-N8schicht,2624,dmr.die-n8schicht.de/,RegisterID,62031
+DE-N8schicht,2624,dmr.die-n8schicht.de,RegisterID,62031
 DE-Hessen,2626,opendmr.de,RegisterID,62031
 DE-Bayern,2628,dmr446.ddnss.de,RegisterID,62031
 DE-Sachsen/Thüringen,2629,freedmr.funkerportal.de,RegisterID,62031
